@@ -5,7 +5,137 @@
   Special styles for presenting Bootstrap's documentation and examples
 */
 
+.icon-menu {
+	display: block;
+	float: left;
+	height: 40px;
+	width: 45px;
+	margin-right: 17px;
+	margin-left: 17px;
+	background: url(../img/icons-menu.png) no-repeat 0 -8px;
+	overflow: hidden;
+}
 
+.icon-menu-pasi {
+	background-position: 0 -58px;
+}
+
+.icon-menu-impact {
+	background-position: 0 -114px;
+}
+
+.icon-menu-happy {
+	background-position: 0 -165px;
+}
+
+.icon-menu-skin {
+	background-position: 0 -218px;
+}
+
+.icon-menu-scorecard {
+	background-position: 0 -273px;
+}
+
+.icon-menu-reminders {
+	background-position: 0 -327px;
+}
+
+.secukinumab .navbar-fixed-top,
+.secukinumab .navbar-fixed-bottom,
+.secukinumab .navbar-static-top {
+	margin: 0;
+}
+
+body.secukinumab {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/* Always show a scrollbar */
+html {
+    overflow-y: scroll;
+}
+
+.secukinumab .navbar-inverse .navbar-inner {
+	background: #cfdee4;
+	background: -moz-linear-gradient(top,  #cfdee4 0%, #bfd2da 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cfdee4), color-stop(100%,#bfd2da));
+	background: -webkit-linear-gradient(top,  #cfdee4 0%,#bfd2da 100%);
+	background: -o-linear-gradient(top,  #cfdee4 0%,#bfd2da 100%);
+	background: -ms-linear-gradient(top,  #cfdee4 0%,#bfd2da 100%);
+	background: linear-gradient(to bottom,  #cfdee4 0%,#bfd2da 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfdee4', endColorstr='#bfd2da',GradientType=0 );
+}
+
+.secukinumab .brand {
+	background: url(../img/logo-illuminate.jpg) no-repeat 0 0;
+	overflow: hidden;
+	text-indent: -999px;
+	display: block;
+	width: 120px;
+	height: 23px;
+	float: left !important;
+}
+
+body.secukinumab > .navbar .brand {
+		margin-left: 0;
+}
+
+.secukinumab .navbar .nav > li > a {
+	height: 18px;
+	padding: 12px 15px;
+}
+
+.secukinumab .navbar-fixed-top .navbar-inner,
+.secukinumab .navbar-fixed-bottom .navbar-inner {
+	padding: 0;
+}
+
+.secukinumab .navbar-inverse .nav .active > a,
+.secukinumab .navbar-inverse .nav .active > a:hover,
+.secukinumab .navbar-inverse .nav .active > a:focus {
+	color: #27333f;
+	background: #b7c8cf;
+}
+
+.secukinumab .navbar-inverse .brand,
+.secukinumab .navbar-inverse .nav > li > a {
+	color: #27333f;
+}
+
+.secukinumab .nav-collapse .navbar-inverse .brand,
+.secukinumab .nav-collapse .navbar-inverse .nav > li > a {
+	color: #fff;
+}
+
+.secukinumab .navbar-inverse .nav-collapse .nav > li > a:hover {
+	background-color: #b7c8cf !important;
+}
+
+.secukinumab .nav-collapse .nav {
+	margin-bottom: 0;
+}
+
+.secukinumab .navbar-inverse .btn-navbar {
+	background: #cfdee4;
+	background: -moz-linear-gradient(top,  #cfdee4 0%, #bfd2da 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cfdee4), color-stop(100%,#bfd2da));
+	background: -webkit-linear-gradient(top,  #cfdee4 0%,#bfd2da 100%);
+	background: -o-linear-gradient(top,  #cfdee4 0%,#bfd2da 100%);
+	background: -ms-linear-gradient(top,  #cfdee4 0%,#bfd2da 100%);
+	background: linear-gradient(to bottom,  #cfdee4 0%,#bfd2da 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfdee4', endColorstr='#bfd2da',GradientType=0 );
+
+	border: none;
+	padding: 15px 10px;
+	border-radius: 0;
+	border-left: 2px solid #aab8c0;
+	margin: 0;
+}
+
+.secukinumab .navbar .btn-navbar .icon-bar {
+	background-color: #2d3b48;
+}
 
 /* Body and structure
 -------------------------------------------------- */
@@ -93,18 +223,7 @@ hr.soften {
   color: #021921;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
-  background: #75890c;
-  background: -moz-linear-gradient(left,  #75890c 5%, #a4b357 99%);
-  background: -webkit-gradient(linear, left top, right top, color-stop(5%,#75890c), color-stop(99%,#a4b357));
-  background: -webkit-linear-gradient(left,  #75890c 5%,#a4b357 99%);
-  background: -o-linear-gradient(left,  #75890c 5%,#a4b357 99%);
-  background: -ms-linear-gradient(left,  #75890c 5%,#a4b357 99%);
-  background: linear-gradient(to right,  #75890c 5%,#a4b357 99%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75890c', endColorstr='#a4b357',GradientType=1 );
-
-  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
-     -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
-          box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+  background: #ddd;
 }
 .jumbotron h1 {
   font-size: 80px;
@@ -887,6 +1006,36 @@ form.bs-docs-example {
     margin-top: 30px;
     margin-right: 0;
   }
+
+	.secukinumab .navbar-inverse .nav .active > a,
+	.secukinumab .navbar-inverse .nav .active > a:hover,
+	.secukinumab .navbar-inverse .nav .active > a:focus {
+		background: #2c3a47;
+		color: #fff;
+	}
+
+	.secukinumab .navbar-inverse .brand,
+	.secukinumab .navbar-inverse .nav > li > a {
+		color: #fff;
+	}
+
+	.secukinumab .navbar-inverse .nav > li {
+		border-bottom: 1px solid #3d4b58;
+	}
+
+	.secukinumab .nav-collapse .nav {
+		background: #31414f;
+	}
+
+	.secukinumab .nav-collapse .navbar-inverse .brand,
+	.secukinumab .nav-collapse .navbar-inverse .nav > li > a {
+		color: #fff;
+	}
+
+	.secukinumab .navbar-inverse .nav-collapse .nav > li > a:hover {
+		background-color: #27333f !important;
+	}
+
 }
 
 /* Tablet to desktop
