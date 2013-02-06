@@ -6,13 +6,13 @@
 */
 
 .icon-menu {
-	display: block;
+	display: none;
 	float: left;
 	height: 40px;
 	width: 45px;
 	margin-right: 17px;
 	margin-left: 17px;
-	background: url(../img/icons-menu.png) no-repeat 0 -8px;
+	background: url(../img/icons-menu.png) no-repeat 0 -3px;
 	overflow: hidden;
 }
 
@@ -77,13 +77,31 @@ html {
 	float: left !important;
 }
 
+.secukinumab .navbar-inverse .nav .inactive {
+}
+
+.secukinumab .navbar-inverse .nav .inactive .icon-menu {
+  opacity: 0.1;
+}
+
+.secukinumab .nav-collapse .nav > li > a {
+  margin-bottom: 0;
+}
+
+.secukinumab .navbar-inverse .nav .inactive span{
+  display: block;
+  height: 18px;
+  padding: 14px 15px;
+  color: #92a5ad;
+}
+
 body.secukinumab > .navbar .brand {
 		margin-left: 0;
 }
 
 .secukinumab .navbar .nav > li > a {
 	height: 18px;
-	padding: 12px 15px;
+	padding: 14px 15px;
 }
 
 .secukinumab .navbar-fixed-top .navbar-inner,
@@ -1005,6 +1023,30 @@ form.bs-docs-example {
     width: 218px;
     margin-top: 30px;
     margin-right: 0;
+  }
+
+  .secukinumab .navbar-inverse .nav .inactive {
+    background: #28333e;
+    border-bottom: 1px solid #313f4d;
+  }
+
+  .secukinumab .navbar-inverse .nav .inactive .icon-menu {
+    opacity: 0.1;
+  }
+
+  .secukinumab .nav-collapse .nav > li > a {
+    margin-bottom: 0;
+  }
+
+  .secukinumab .navbar-inverse .nav .inactive span{
+    display: block;
+    height: 18px;
+    padding: 14px 15px;
+    color: #334150;
+  }
+
+  .secukinumab .icon-menu {
+  	display: block;
   }
 
 	.secukinumab .navbar-inverse .nav .active > a,
